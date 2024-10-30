@@ -1,0 +1,28 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- Greeting -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How can I assist you today?</template>
+    </category>
+    
+    <!-- Shipping Information -->
+    <category>
+        <pattern>WHAT IS YOUR SHIPPING POLICY</pattern>
+        <template>We offer standard shipping within 3-5 business days. Express options are also available.</template>
+    </category>
+    
+    <category>
+        <pattern>HOW LONG DOES SHIPPING TAKE</pattern>
+        <template>Standard shipping takes 3-5 business days. For express, it can be delivered within 1-2 days.</template>
+    </category>
+    
+    <!-- Return Policy -->
+    <category>
+        <pattern>WHAT IS YOUR RETURN POLICY</pattern>
+        <template>You can return products within 30 days of purchase. Please ensure items are in their original condition.</template>
+    </category>
+    
+    <!-- Product Information -->
+    <category>
+        <pattern>TELL ME ABOUT PRODUCT *</pattern>
+        <template>We have various products available. C
